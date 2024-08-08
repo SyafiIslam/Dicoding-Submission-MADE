@@ -1,0 +1,20 @@
+dependencies {
+    //Glide
+    implementation(libs.glide)
+
+    //Circular View
+    implementation (libs.circleimageview)
+
+    //ViewModel
+    implementation (libs.androidx.activity.ktx)
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+
+    //Navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    // SQL
+    implementation libs.android.database.sqlcipher
+    implementation libs.androidx.sqlite.ktx
+}
