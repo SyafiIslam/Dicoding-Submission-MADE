@@ -8,17 +8,8 @@ jobs:
     executor: android/android
     steps:
       - checkout
-      - run: java --version
       - restore_cache:
           key: android-orb-v1-
-      - run:
-          name: Install Java 17
-          command: |
-            sudo apt-get update
-            sudo apt-get install openjdk-17-jdk
-      - run:
-          name: Set Java Version to 17
-          command: sudo update-alternatives --install /usr/bin/java java /usr/lib/jvm/java-17-openjdk-amd64/bin/java 1
       - run:
           name: Chmod permissions
           command: sudo chmod +x ./gradlew
