@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CoolerGitUser</string>
+    <string name="placeholder">PlaceHolder</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="user_id">Id: %1$s</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="count_placeholder">0</string>
+    <string name="add_to_favorite">add to favorite</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="remove_from_favorite">User removed from favorite</string>
+    <string name="user_added_to_favorite">User added to favorite</string>
+    <string name="change_language">Change Language</string>
+    <string name="user_not_found">User not found</string>
+</resources>
